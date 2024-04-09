@@ -1,0 +1,75 @@
+.header-image {
+    height: 8rem;
+    object-fit: contain;
+}
+
+/* .carousel-item {
+    height: 500px;
+} */
+
+.blurb {
+    text-align: justify;
+}
+
+.card-link a:link, .card-link a:visited {
+    color: rgb(20, 124, 194);
+}
+
+.card-link a:hover {
+    color: #66bff1;
+}
+
+.card-link a:active {
+    color: black;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.lead {
+    text-align: justify;
+}
+
+.navbar-dots > span {
+    display: inline-block;
+    background: white;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+}
+
+@media (max-width: 992px) {
+    header .navbar-dots > span {
+        vertical-align: 20%;
+    }
+}
+
+.course-item{
+    background: black;
+    color: white;
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
+    text-align: center;
+}
+
+.course-item:hover {
+    color: #66bff1;
+}
+
+section {
+    margin-top: 50px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -400px;
+    visibility: hidden;
+}
+
+@media (min-width: 992px) {
+    a.anchor {
+        top: -100px;
+    }
+}

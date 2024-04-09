@@ -1,0 +1,5 @@
+# Otaining bootstrap:
+npm install bootstrap
+
+# Compiling css from sass:
+sass scss/custom.scss  bootstrap_custom.css
